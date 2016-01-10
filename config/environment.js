@@ -3,8 +3,10 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'tewdew-web',
+    podModulePrefix: 'tewdew-web/routes',
     environment: environment,
-    baseURL: '/',
+    baseUrl: '/',
+    apiNamespace: 'api',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -25,11 +27,12 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.apiUrl = 'http://localhost:4000'
   }
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
+    ENV.baseUrl = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter
