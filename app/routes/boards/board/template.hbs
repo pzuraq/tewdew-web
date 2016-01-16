@@ -1,0 +1,11 @@
+<h1>{{model.board.name}}</h1>
+
+{{#each model.board.taskLists as |list|}}
+  <h2>{{list.name}}</h2>
+
+  <ul class="menu vertical">
+    {{#each list.tasks as |task|}}
+      <li class="active">{{task.name}}</li>
+    {{/each}}
+  </ul>
+{{/each}}
