@@ -9,7 +9,7 @@ const {
 export default DS.Model.extend({
   name: attr('string'),
 
-  user: belongsTo('user'),
+  taskBoard: belongsTo('task-board'),
 
-  tasks: hasMany('tasks')
+  tasks: hasMany('task')
 });
