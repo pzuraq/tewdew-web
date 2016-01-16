@@ -2,7 +2,7 @@ import { moduleForModel, test } from 'ember-qunit';
 
 moduleForModel('task-list', 'Unit | Model | task list', {
   // Specify the other units that are required for this test.
-  needs: ['model:task', 'model:user']
+  needs: ['model:task-board', 'model:task']
 });
 
 test('it exists', function(assert) {
