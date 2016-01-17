@@ -10,7 +10,9 @@ rules:
   border-zero:
     - 2
     - convention: none
-  brace-style: 2
+  brace-style:
+    - 2
+    - allow-single-line: false
   class-name-format: 2
   clean-import-paths: 0
   empty-args: 2
@@ -51,10 +53,11 @@ rules:
   no-qualifying-elements:
     - 2
     - allow-element-with-attribute: true
-    - allow-element-with-class: true
   no-trailing-zero: 2
   no-transition-all: 2
-  no-warn: 0
+  no-url-protocols: 0
+  no-vendor-prefixes: 0
+  no-warn: 2
   one-declaration-per-line: 2
   placeholder-in-extend: 2
   placeholder-name-format: 2

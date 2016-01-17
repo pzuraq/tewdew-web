@@ -8,5 +8,5 @@ const {
 export default DS.Model.extend({
   email: attr('string'),
 
-  taskBoards: hasMany('task-board')
+  taskBoards: hasMany('task-board', { async: false })
 });

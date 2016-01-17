@@ -11,5 +11,5 @@ export default DS.Model.extend({
 
   taskBoard: belongsTo('task-board'),
 
-  tasks: hasMany('task')
+  tasks: hasMany('task', { async: false })
 });
