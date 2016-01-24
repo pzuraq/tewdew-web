@@ -1,6 +1,11 @@
+@import "colors";
 @import "settings";
-
-$flex: true;
 
 @import "foundation";
 @include foundation-everything;
+
+body > div {
+  height: 100%;
+}
+
+@import "pod-styles";

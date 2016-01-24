@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'tewdew-web',
     podModulePrefix: 'tewdew-web/routes',
+    componentPodModulePrefix: 'tewdew-web/',
     environment: environment,
     baseURL: '/',
     apiNamespace: 'api',

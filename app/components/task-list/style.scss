@@ -1,0 +1,21 @@
+& {
+  height: 100%;
+
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+}
+
+.list-header {
+  background-color: $medium-purple;
+  height: 30px;
+
+  h2 {
+    text-align: center;
+    line-height: 30px;
+    color: $white;
+    font-size: rem-calc(16);
+    font-weight: bold;
+  }
+}

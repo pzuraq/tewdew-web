@@ -36,6 +36,7 @@
     "ember-cli-sass-lint": "0.1.0",
     "ember-cli-sri": "^1.2.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-component-css": "pzuraq/ember-component-css.git#pod-module-prefix-fix",
     "ember-data": "~2.3.1",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",

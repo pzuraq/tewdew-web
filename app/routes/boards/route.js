@@ -12,6 +12,6 @@ export default Ember.Route.extend({
     const { user } = this.get('session.data');
     const boards = user.get('taskBoards');
 
-    return hash({ boards })
+    return hash({ boards });
   }
 });
