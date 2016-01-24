@@ -1,0 +1,9 @@
+<div class="list-header">
+  <h2>{{list.name}}</h2>
+</div>
+
+<ul>
+  {{#each list.tasks as |task|}}
+    {{task-item task=task}}
+  {{/each}}
+</ul>
