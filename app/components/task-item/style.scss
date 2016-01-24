@@ -1,7 +1,18 @@
+$item-border: solid 1px rgba($medium-purple, 0.5);
+
 & {
   background-color: $light-purple;
 
   padding: rem-calc(16) rem-calc(30);
 
   color: $white;
+
+  &:not(:last-child) {
+    border-bottom: $item-border;
+  }
+
+  &:focus {
+    outline: 0;
+    background-color: scale-color($light-purple, $lightness: 7%);
+  }
 }
